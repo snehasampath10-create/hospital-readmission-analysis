@@ -90,12 +90,6 @@ hospital-readmission-analysis/
 └── README.md
 ```
 
-## 🚀 Next Steps
-- [ ] Data cleaning and preprocessing
-- [ ] Feature engineering
-- [ ] Build predictive models (Logistic Regression, Random Forest, XGBoost)
-- [ ] Model evaluation and validation
-- [ ] Create risk score calculator
 
 ## 👤 Author
 **Sneha**
