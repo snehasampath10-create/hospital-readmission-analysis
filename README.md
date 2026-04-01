@@ -82,11 +82,17 @@ Target interventions for:
 ```
 hospital-readmission-analysis/
 ├── data/
-│   ├── raw/              # Original dataset
-│   └── processed/        # Cleaned data (future)
+│   ├── raw/                           # Original dataset
+│   │   └── diabetic_data.csv
+│   └── processed/                     # Cleaned and engineered data
+│       ├── diabetic_data_cleaned.csv
+│       └── diabetic_data_model_ready.csv
 ├── notebooks/
-│   └── 01_data_exploration.ipynb
-├── outputs/              # Visualizations and charts
+│   ├── 01_data_exploration.ipynb      # Initial EDA and insights
+│   ├── 02_data_cleaning.ipynb         # Data cleaning pipeline
+│   ├── 03_feature_engineering.ipynb   # Feature creation and encoding
+│   └── 04_modeling.ipynb              # Model building and evaluation
+├── outputs/                           # Visualizations and charts
 └── README.md
 ```
 
