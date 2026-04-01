@@ -37,6 +37,27 @@ Identify patients at high risk of readmission within 30 days to enable targeted 
 4. **Prior Inpatient Visits**
    - Previous hospitalizations predict future readmissions
    - Indicates chronic health conditions
+     
+## 🤖 Predictive Modeling Results
+
+### Model Performance
+- **Algorithm:** Random Forest Classifier
+- **ROC-AUC Score:** 0.67 (industry standard for readmission prediction)
+- **Accuracy:** 70.86%
+- **Recall:** 50% (catches half of readmitted patients)
+
+### Top Predictive Features
+1. Prior inpatient visits (most important)
+2. Total hospital encounters
+3. Discharge disposition
+4. Number of medications
+5. Prior emergency visits
+6. Patient age
+
+### Model Validation
+- Train/test split: 80/20
+- Handles class imbalance with balanced weights
+- Performance validated on 20,354 unseen patients
 
 ## 💡 Recommendations
 
